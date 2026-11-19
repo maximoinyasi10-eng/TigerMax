@@ -1,30 +1,33 @@
-# TIGER CITY 3D
+# TIGER CITY 3D — Mobile Prototype
 
-A playable, lightweight Godot 4 strategy/city-building prototype.
+Godot 4 landscape city and military strategy prototype.
 
-## Run
+## Mobile controls
 
-1. Open the repository folder in **Godot 4**.
-2. Press **F6** or run the project.
-3. Use **arrow keys** to move the camera and the mouse wheel to zoom.
-4. Choose a building/defence item and click the ground to place it.
+- Open in Godot 4 and export for Android.
+- Touch the build panel to select a structure or unit.
+- Touch an empty grid tile to place it.
+- Use WASD, arrow keys or the Android touch navigation display to move the camera.
+- Select a district with a friendly unit to begin capture.
 
-## Current prototype features
+## Included
 
-- Procedural 3D terrain
-- Grid placement
-- Roads, houses, shops, hospital, towers, walls and tanks
-- Population and resource counters
-- Camera movement and zoom
-- Mobile-compatible GL rendering method
+- Black and emerald military-city visual identity
+- Tigress introduction character and mission guidance
+- Maximo, permanent military commander
+- Level and XP progression
+- Houses, shops, banks, towers and walls
+- Trucks, trains and aircraft transport props
+- Soldier and tank recruitment
+- District capture and AI combat
+- Save/load
+- Multi-stage mission progression
 
-## Not yet complete
+## Not included
 
-- Full city simulation and factions
-- Operable combat units
-- Air and naval units
-- Online PvP and multiplayer
-- Full audio and save/load
-- Final Android APK
+- Multiplayer
+- A store-licensed final APK
+- High-end 3D assets, voice acting and final audio
+- A production payment system or real-money commerce
 
-This is an honest prototype, not a claim of full game completion.
+This branch is a prototype and should be tested in a real Android landscape session before release.
