@@ -1,0 +1,1 @@
+// Godot validation patch placeholder
