@@ -1,37 +1,23 @@
 # TIGER CITY 3D — Modern Military City
 
-This Godot 4 prototype combines city management and military strategy on a landscape mobile screen.
+A Godot 4 landscape mobile city-building and military strategy prototype.
 
-## Modern city systems
+## Included
 
-- Houses and apartments
-- Shops and banks
-- Schools and hospitals
-- Solar power and water plants
+- Modern houses, apartments, shops, banks, hospitals and schools
+- Solar power and water infrastructure
 - Roads and defensive walls
-- Population, jobs, happiness, power and water
-- Active civilian pedestrians
-- Day and night progression
 - Trucks and trains
-- Low-detail 3D props designed for mobile testing
-
-## Military and missions
-
-- Tigress introduction and mission guidance
-- Maximo as the permanent army commander
 - Soldiers, tanks and drones
-- AI enemy units
-- Combat and XP progression
-- Level progression and mission rewards
-- Local save and load
+- AI enemy units and civilian walking residents
+- Tigress missions and Maximo commander identity
+- Level, XP and reward progression
+- Local save/load
+- Landscape mobile configuration
 
-## Android and quality
+## Validation status
 
-- Landscape configuration
-- Touch placement
-- Arrow/WASD camera movement
-- Pinch zoom is not yet implemented
-- Low/medium/high graphics settings are planned, not final
-- Multiplayer, licensed 3D assets, full voice acting and a signed APK are not included
+- `run/main_scene` points to `modern_city.tscn`
+- Known syntax errors reported in the previous script have been removed
+- Runtime and Android APK verification still require opening the repository in Godot 4 on a device
 
-Open `modern_city.tscn` or run the project in Godot 4. This is a playable prototype, not a production release.
