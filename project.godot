@@ -1,9 +1,10 @@
-; TIGER CITY 3D — Godot 4 mobile strategy prototype
+; TIGER CITY 3D — Modern military city prototype
 config_version=5
 
 [application]
 config/name="TIGER CITY 3D"
-run/main_scene="res://main.tscn"
+run/main_scene="res://modern_city.tscn"
+config/quit_on_go_back=false
 
 [display]
 window/size/viewport_width=1280
@@ -15,4 +16,4 @@ window/handheld/orientation=1
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
-environment/defaults/default_clear_color=Color(0.055, 0.075, 0.09, 1)
+environment/defaults/default_clear_color=Color(0.035, 0.052, 0.065, 1)

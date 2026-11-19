@@ -1,33 +1,37 @@
-# TIGER CITY 3D — Mobile Prototype
+# TIGER CITY 3D — Modern Military City
 
-Godot 4 landscape city and military strategy prototype.
+This Godot 4 prototype combines city management and military strategy on a landscape mobile screen.
 
-## Mobile controls
+## Modern city systems
 
-- Open in Godot 4 and export for Android.
-- Touch the build panel to select a structure or unit.
-- Touch an empty grid tile to place it.
-- Use WASD, arrow keys or the Android touch navigation display to move the camera.
-- Select a district with a friendly unit to begin capture.
+- Houses and apartments
+- Shops and banks
+- Schools and hospitals
+- Solar power and water plants
+- Roads and defensive walls
+- Population, jobs, happiness, power and water
+- Active civilian pedestrians
+- Day and night progression
+- Trucks and trains
+- Low-detail 3D props designed for mobile testing
 
-## Included
+## Military and missions
 
-- Black and emerald military-city visual identity
-- Tigress introduction character and mission guidance
-- Maximo, permanent military commander
-- Level and XP progression
-- Houses, shops, banks, towers and walls
-- Trucks, trains and aircraft transport props
-- Soldier and tank recruitment
-- District capture and AI combat
-- Save/load
-- Multi-stage mission progression
+- Tigress introduction and mission guidance
+- Maximo as the permanent army commander
+- Soldiers, tanks and drones
+- AI enemy units
+- Combat and XP progression
+- Level progression and mission rewards
+- Local save and load
 
-## Not included
+## Android and quality
 
-- Multiplayer
-- A store-licensed final APK
-- High-end 3D assets, voice acting and final audio
-- A production payment system or real-money commerce
+- Landscape configuration
+- Touch placement
+- Arrow/WASD camera movement
+- Pinch zoom is not yet implemented
+- Low/medium/high graphics settings are planned, not final
+- Multiplayer, licensed 3D assets, full voice acting and a signed APK are not included
 
-This branch is a prototype and should be tested in a real Android landscape session before release.
+Open `modern_city.tscn` or run the project in Godot 4. This is a playable prototype, not a production release.
