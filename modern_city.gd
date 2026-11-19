@@ -65,7 +65,7 @@ func _build_world() -> void:
 	var environment := Environment.new()
 	environment.background_mode = Environment.BG_COLOR
 	environment.background_color = Color("667f86")
-	environment.ambient_light_source = Environment.AMBIENT_SOURCE_SOURCE_COLOR
+	environment.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
 	environment.ambient_light_color = Color("cad7d4")
 	environment.ambient_light_energy = 0.72
 	environment.fog_enabled = true
@@ -97,6 +97,8 @@ func _setup_ui() -> void:
 	var top_margin := MarginContainer.new()
 	top_margin.add_theme_constant_override("margin_left", 12)
 	top_margin.add_theme_constant_override("margin_right", 12)
+	top_margin.add_theme_constant_override("margin_top", 6)
+	top_margin.add_theme_constant_override("margin_bottom", 6)
 	top.add_child(top_margin)
 	var top_box := VBoxContainer.new()
 	top_margin.add_child(top_box)
@@ -115,6 +117,7 @@ func _setup_ui() -> void:
 	hero_margin.add_theme_constant_override("margin_left", 12)
 	hero_margin.add_theme_constant_override("margin_right", 12)
 	hero_margin.add_theme_constant_override("margin_top", 8)
+	hero_margin.add_theme_constant_override("margin_bottom", 8)
 	hero.add_child(hero_margin)
 	var hero_box := VBoxContainer.new()
 	hero_margin.add_child(hero_box)
@@ -194,9 +197,8 @@ func _unhandled_input(event: InputEvent) -> void:
 		_place()
 
 func _screen_cell() -> Variant:
-	var screen_position := get_viewport().get_mouse_position()
-	var origin := camera.project_ray_origin(screen_position)
-	var direction := camera.project_ray_normal(screen_position)
+	var origin := camera.project_ray_origin(get_viewport().get_mouse_position())
+	var direction := camera.project_ray_normal(get_viewport().get_mouse_position())
 	if abs(direction.y) < 0.001:
 		return null
 	var point := origin + direction * (-origin.y / direction.y)

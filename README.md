@@ -18,6 +18,5 @@ A Godot 4 landscape mobile city-building and military strategy prototype.
 ## Validation status
 
 - `run/main_scene` points to `modern_city.tscn`
-- Known syntax errors reported in the previous script have been removed
-- Runtime and Android APK verification still require opening the repository in Godot 4 on a device
-
+- Previous known syntax errors have been removed
+- Runtime and Android APK verification still require opening the repository in Godot 4
